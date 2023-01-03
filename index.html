@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>E-Ride</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/imgs/logo1.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-sm-3 " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rides.html">ACTIVE RIDES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link btn login rounded fw-bold" href="/login.html">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn signup btn-light fw-bold border border-dark" href="/signup.html">SIGN
+                            UP</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <header class="mb-5">
+        <div class="container">
+            <div class="row d-flex flex-lg-row align-items-center justify-content-center ">
+                <div class="col-lg-6">
+                    <h1 class="mt-5"> Where do you want to go?
+                    </h1>
+                </div>
+                <div class="col-lg-6">
+                    <form class="resorvation flex-wrap" method="get" action="">
+                        <select name="from" class="form-select">
+                            <option value="">Leaving from...</option>
+                            <option value="">Agadir</option>
+                            <option value="">Casablanca</option>
+                            <option value="">Boulemane</option>
+                            <option value="">Rachidia</option>
+                            <option value="">Fes</option>
+                            <option value="">Azilal</option>
+                        </select>
+                        <select name="to" class="form-select">
+                            <option value="">Going to ...</option>
+                            <option value="">Agadir</option>
+                            <option value="">Casablanca</option>
+                            <option value="">Boulemane</option>
+                            <option value="">Rachidia</option>
+                            <option value="">Fes</option>
+                            <option value="">Azilal</option>
+                        </select>
+                        <select name="nperson" class="form-select">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                        <input class="btn btn-primary fw-bold search-btn w-100" type="submit" value="Search">
+                    </form>
+                </div>
+
+            </div>
+    </header>
+    <section class="">
+        <div
+            class="container-md align-items-sm-center align-items-lg-start d-flex justify-content-lg-around  justify-content-between services flex-column responsive-row gap-2 gap-sm-5 mt-5 mb-5 px-5 py-5">
+            <div class="card border-0 card-width">
+                <img src="./assets/imgs/img.svg" class="card-img-top w-25 m-auto" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Your pick of rides at low prices
+                    </h5>
+                    <p class="card-text">No matter where you’re going, by bus or carpool, find the perfect ride from our
+                        wide range of destinations and routes at low prices.</p>
+                </div>
+            </div>
+            <div class="card border-0 card-width">
+                <img src="./assets/imgs/img1.svg" class="m-auto card-img-top w-25" alt="...">
+
+                <div class="card-body text-center">
+                    <h5 class="card-title">Trust who you travel with
+
+                    </h5>
+                    <p class="card-text">We take the time to get to know each of our members and bus partners. We check
+                        reviews, profiles and IDs, so you know who you’re travelling with and can book your ride at ease
+                        on
+                        our secure platform.</p>
+                </div>
+            </div>
+            <div class="card border-0 card-width">
+                <img src="./assets/imgs/img2.svg" style="" class="m-auto card-img-top w-25" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Scroll, click, tap and go!</h5>
+                    <p class="card-text">Booking a ride has never been easier! Thanks to our simple app powered by great
+                        technology, you can book a ride close to you in just minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="publish-ride">
+        <div
+            class="container position-relative py-5 d-flex text-center   align-items-center justify-content-between text-light flex-column-reverse flex-md-row text-md-start mt-5 px-5">
+            <div class="col-md-6  col-12 ">
+
+                <h2 class="fs-1 ">Where do you want to drive?
+                </h2>
+                <p class="fs-5">Let's make this your least expensive journey ever.
+                </p>
+                <button class="btn-lg btn-dark bg-transparent border border-light fw-bold hover-light">Publish a
+                    ride</button>
+            </div>
+            <div class="col-md-6 col-12 d-flex ">
+                <img src="./assets/imgs/publish-ride.svg" class="w-100" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="carouselExampleControls" class="carousel m-5 p-5 slide" data-bs-ride="carousel"
+            data-bs-interval="3000">
+            <div class="carousel-inner m-auto  ">
+                <div class="carousel-item text-center active">
+                    <div class="img-cont m-auto">
+                        <img src="./assets/imgs/client1.jpg" alt="">
+                    </div>
+                    <h3 class="my-4">Jhon ebrawi</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur ipsam, inventore id a quos
+                        architecto laborum vel corporis? Molestiae magnam ad laboriosam, sunt eveniet beatae </p>
+                </div>
+                <div class="carousel-item text-center ">
+                    <div class="img-cont m-auto">
+                        <img src="./assets/imgs/client2jpg.jpg" alt="">
+                    </div>
+                    <h3 class="my-4">Ahmed saad</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur ipsam, inventore id a quos
+                        architecto laborum vel corporis? Molestiae magnam ad laboriosam, sunt eveniet beatae </p>
+                </div>
+                <div class="carousel-item text-center">
+                    <div class="img-cont m-auto">
+                        <img src="./assets/imgs/client3jpg.jpg" alt="">
+                    </div>
+                    <h3 class="my-4">Amal hasone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur ipsam, inventore id a quos
+                        architecto laborum vel corporis? Molestiae magnam ad laboriosam, sunt eveniet beatae </p>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-slider-arrow" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </section>
+
+    <footer class="p-2">
+        <div class="container py-5 d-flex flex-lg-row justify-content-between flex-column ">
+            <div class="col-lg-6 px-lg-5">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/imgs/logo2.png" alt="">
+                </a>
+                <h5 class="fs-3 py-3">Lorem ipsum dolor sit</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim neque voluptas corporis assumenda
+                    tempora, accusamus, magnam veniam voluptatum architecto ipsa soluta ratione quas totam perferendis
+                    distinctio quibusdam magni iure. Impedit.</p>
+                <ul class="social-media d-flex gap-3 list-unstyled justify-content-start ">
+                    <li><a href="#">
+                            <img src="./assets/imgs/Instagram.png" alt=""></a></li>
+
+                    <li><a href="#">
+                            <img src="./assets/imgs/Twitter.png" alt=""></a></li>
+                    <li><a href="#">
+                            <img src="./assets/imgs/Facebook.png" alt=""><a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 pe-lg-5 pt-5 mt-0 mt-lg-5">
+                <div class="w-50 m-sm- m-lg-auto">
+                    <h5 class="fs-3">Menu</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-light">HOME</a></li>
+                        <li class="nav-item mb-2"><a href="/rides.html" class="nav-link p-0 text-light">ACTIVE RIDES</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="/contact.html" class="nav-link p-0 text-light">CONTACT US</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="/about" class="nav-link p-0 text-light ">ABOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="text-center text-light  ">© 2022 E-Ride</p>
+
+    </footer>
+    <script src="./assets/bootstrap/script.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+
+</body>
+
+</html>
