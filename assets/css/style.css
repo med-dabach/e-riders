@@ -36,8 +36,8 @@
 
 nav .container a img,
 footer .container .navbar-brand img {
-    max-width: 90px;
-    max-height: 90px;
+    max-width: 80px;
+    max-height: 80px;
     border: 2px solid var(--light-blue);
     border-radius: 50%;
 
