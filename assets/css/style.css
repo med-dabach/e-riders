@@ -173,6 +173,10 @@ footer {
     line-height: 1.6;
 }
 
+.card-text a {
+    width: 140px;
+}
+
 .search-btn {
     background-color: var(--light-blue);
     color: var(--white);
@@ -275,17 +279,28 @@ footer {
     margin: 0;
 }
 
+.hovver-light {
+    background-color: var(--light-blue) !important;
+    border: 1px solid var(--white);
+    text-decoration: none;
+}
+
+.hovver-light:hover {
+    background-color: transparent !important;
+
+}
+
 .card {
     max-width: 500px !important;
     width: 100% !important;
 }
 
 
+
 @media screen and (min-width:768px) {
     nav ul li a:hover:after {
         width: calc(100% - 5px);
     }
-
 }
 
 @media screen and (min-width:992px) {
